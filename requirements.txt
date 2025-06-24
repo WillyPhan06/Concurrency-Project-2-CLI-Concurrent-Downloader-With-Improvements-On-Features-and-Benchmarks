@@ -1,0 +1,3 @@
+aiohttp==3.12.12
+Requests==2.32.4
+tqdm==4.67.1
