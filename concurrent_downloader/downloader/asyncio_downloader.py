@@ -42,8 +42,8 @@ class Asyncio_Downloader(BaseDownloader):
             print(f"❌FAILED❌ {url}: {e}")
 
     async def run(self):
-        connector = aiohttp.TCPConnector(limit=10)
-        timeout = aiohttp.ClientTimeout(total=60)
+        connector = aiohttp.TCPConnector(limit=100)
+        timeout = aiohttp.ClientTimeout(total=120)
         headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",

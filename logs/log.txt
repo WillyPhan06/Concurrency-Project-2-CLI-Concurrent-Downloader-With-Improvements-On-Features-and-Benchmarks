@@ -1,501 +1,101 @@
 ASYNCIO LOG HISTORY
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4'
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt'
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip'
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf'
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav'
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3'
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg'
-[23/06/2025 - 23:20:21] SUCCESS https://jsonplaceholder.typicode.com/posts/1 
-[23/06/2025 - 23:20:21] SUCCESS https://www.wikipedia.org/robots.txt 
-[23/06/2025 - 23:20:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png'
-[23/06/2025 - 23:20:21] SUCCESS https://www.wikipedia.org/robots.txt 
-[23/06/2025 - 23:20:21] SUCCESS https://www.wikipedia.org/robots.txt 
-[23/06/2025 - 23:20:21] SUCCESS https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif 
-[23/06/2025 - 23:20:21] SUCCESS http://example.com 
-[23/06/2025 - 23:20:21] SUCCESS https://jsonplaceholder.typicode.com/posts/2 
-[23/06/2025 - 23:20:21] FAIL https://api.ipify.org/?format=json [Errno 22] Invalid argument: 'downloads\\?format=json'
-[23/06/2025 - 23:20:21] SUCCESS http://www.google.com/robots.txt 
-[23/06/2025 - 23:20:21] FAIL https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg 403, message='Forbidden', url='https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg'
-[23/06/2025 - 23:20:21] SUCCESS https://api.github.com/zen 
-[23/06/2025 - 23:20:21] SUCCESS http://github.com 
-[23/06/2025 - 23:20:21] SUCCESS http://github.com 
-[23/06/2025 - 23:20:21] SUCCESS https://www.wikipedia.org/robots.txt 
-[23/06/2025 - 23:20:21] SUCCESS http://github.com 
-[23/06/2025 - 23:20:22] SUCCESS http://example.com 
-[23/06/2025 - 23:20:22] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:20:22] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff'
-[23/06/2025 - 23:20:22] SUCCESS http://example.com 
-[23/06/2025 - 23:20:22] SUCCESS https://download.samplelib.com/mp3/sample-3s.mp3 
-[23/06/2025 - 23:20:22] FAIL https://api.ipify.org/?format=json [Errno 22] Invalid argument: 'downloads\\?format=json'
-[23/06/2025 - 23:20:22] SUCCESS https://www.wikipedia.org/robots.txt 
-[23/06/2025 - 23:20:22] SUCCESS https://api.github.com/zen 
-[23/06/2025 - 23:20:22] SUCCESS http://github.com 
-[23/06/2025 - 23:20:22] SUCCESS https://httpbin.org/redirect/1 
-[23/06/2025 - 23:20:22] SUCCESS https://jsonplaceholder.typicode.com/todos/1 
-[23/06/2025 - 23:20:22] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg'
-[23/06/2025 - 23:20:22] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:20:22] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:20:22] SUCCESS https://api.github.com/zen 
-[23/06/2025 - 23:20:23] SUCCESS https://api.github.com/zen 
-[23/06/2025 - 23:20:23] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf'
-[23/06/2025 - 23:20:23] SUCCESS http://github.com 
-[23/06/2025 - 23:20:23] SUCCESS http://www.google.com 
-[23/06/2025 - 23:20:23] FAIL https://api.ipify.org/?format=json [Errno 22] Invalid argument: 'downloads\\?format=json'
-[23/06/2025 - 23:20:23] SUCCESS https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png 
-[23/06/2025 - 23:20:23] SUCCESS http://example.com 
-[23/06/2025 - 23:20:23] SUCCESS https://api.github.com/zen 
-[23/06/2025 - 23:20:23] SUCCESS https://www.gstatic.com/webp/gallery/1.sm.webp 
-[23/06/2025 - 23:20:23] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf'
-[23/06/2025 - 23:20:23] SUCCESS https://jsonplaceholder.typicode.com/todos/2 
-[23/06/2025 - 23:20:23] SUCCESS https://www.gstatic.com/webp/gallery/3.sm.webp 
-[23/06/2025 - 23:20:23] SUCCESS http://example.com 
-[23/06/2025 - 23:20:23] SUCCESS https://www.gstatic.com/webp/gallery/4.sm.webp 
-[23/06/2025 - 23:20:23] SUCCESS https://www.gstatic.com/webp/gallery/2.sm.webp 
-[23/06/2025 - 23:20:24] SUCCESS https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif 
-[23/06/2025 - 23:20:24] SUCCESS https://download.samplelib.com/mp3/sample-6s.mp3 
-[23/06/2025 - 23:20:24] SUCCESS https://www.gstatic.com/webp/gallery/1.sm.webp 
-[23/06/2025 - 23:20:24] SUCCESS https://www.gstatic.com/webp/gallery/2.sm.webp 
-[23/06/2025 - 23:20:24] SUCCESS https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif 
-[23/06/2025 - 23:20:24] SUCCESS https://sample-videos.com/img/Sample-jpg-image-500kb.jpg 
-[23/06/2025 - 23:20:24] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4'
-[23/06/2025 - 23:20:24] SUCCESS https://jsonplaceholder.typicode.com/posts/1 
-[23/06/2025 - 23:20:24] SUCCESS https://upload.wikimedia.org/wikipedia/commons/6/6b/Picture_icon_BLACK.svg 
-[23/06/2025 - 23:20:24] SUCCESS https://www.gstatic.com/webp/gallery/3.sm.webp 
-[23/06/2025 - 23:20:24] SUCCESS https://jsonplaceholder.typicode.com/posts/2 
-[23/06/2025 - 23:20:24] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4'
-[23/06/2025 - 23:20:25] SUCCESS https://www.orimi.com/pdf-test.pdf 
-[23/06/2025 - 23:20:25] SUCCESS http://www.google.com/robots.txt 
-[23/06/2025 - 23:20:25] FAIL https://api.ipify.org/?format=json [Errno 22] Invalid argument: 'downloads\\?format=json'
-[23/06/2025 - 23:20:25] SUCCESS http://www.google.com 
-[23/06/2025 - 23:20:25] SUCCESS https://www.gstatic.com/webp/gallery/4.sm.webp 
-[23/06/2025 - 23:20:25] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4'
-[23/06/2025 - 23:20:25] SUCCESS https://www.gstatic.com/webp/gallery/1.sm.webp 
-[23/06/2025 - 23:20:25] SUCCESS https://www.w3schools.com/html/mov_bbb.mp4 
-[23/06/2025 - 23:20:25] FAIL https://httpbin.org/status/404 404, message='NOT FOUND', url='https://httpbin.org/status/404'
-[23/06/2025 - 23:20:26] SUCCESS https://www.w3schools.com/html/mov_bbb.webm 
-[23/06/2025 - 23:20:26] SUCCESS https://www.gstatic.com/webp/gallery/2.sm.webp 
-[23/06/2025 - 23:20:27] FAIL https://httpbin.org/status/500 500, message='INTERNAL SERVER ERROR', url='https://httpbin.org/status/500'
-[23/06/2025 - 23:20:27] SUCCESS https://www.gstatic.com/webp/gallery/3.sm.webp 
-[23/06/2025 - 23:20:27] FAIL https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg 404, message='Not Found', url='https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg'
-[23/06/2025 - 23:20:27] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4'
-[23/06/2025 - 23:20:27] SUCCESS https://www.gstatic.com/webp/gallery/4.sm.webp 
-[23/06/2025 - 23:20:27] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:20:28] SUCCESS https://download.samplelib.com/mp3/sample-9s.mp3 
-[23/06/2025 - 23:20:28] SUCCESS https://www.gstatic.com/webp/gallery/1.sm.webp 
-[23/06/2025 - 23:20:28] SUCCESS https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png 
-[23/06/2025 - 23:20:28] SUCCESS https://www.gstatic.com/webp/gallery/2.sm.webp 
-[23/06/2025 - 23:20:28] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'
-[23/06/2025 - 23:20:29] SUCCESS https://jsonplaceholder.typicode.com/todos/1 
-[23/06/2025 - 23:20:29] SUCCESS https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif 
-[23/06/2025 - 23:20:29] FAIL https://api.ipify.org/?format=json [Errno 22] Invalid argument: 'downloads\\?format=json'
-[23/06/2025 - 23:20:29] FAIL https://sample-videos.com/video123/mp4/480/asdasdas.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/480/asdasdas.mp4'
-[23/06/2025 - 23:20:29] SUCCESS https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif 
-[23/06/2025 - 23:20:30] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf'
-[23/06/2025 - 23:20:30] SUCCESS https://httpbin.org/redirect/2 
-[23/06/2025 - 23:20:31] SUCCESS https://www.orimi.com/pdf-test.pdf 
-[23/06/2025 - 23:20:31] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4'
-[23/06/2025 - 23:20:31] SUCCESS https://sample-videos.com/img/Sample-jpg-image-500kb.jpg 
-[23/06/2025 - 23:20:32] SUCCESS https://www.orimi.com/pdf-test.pdf 
-[23/06/2025 - 23:20:32] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf'
-[23/06/2025 - 23:20:32] SUCCESS https://download.samplelib.com/mp4/sample-5s.mp4 
-[23/06/2025 - 23:20:35] SUCCESS https://httpbin.org/image/jpeg 
-[23/06/2025 - 23:20:35] SUCCESS https://www.w3schools.com/html/mov_bbb.mp4 
-[23/06/2025 - 23:20:42] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:42] SUCCESS http://www.google.com/robots.txt 
-[23/06/2025 - 23:20:42] SUCCESS https://www.gstatic.com/webp/gallery/3.sm.webp 
-[23/06/2025 - 23:20:43] SUCCESS https://upload.wikimedia.org/wikipedia/commons/6/6b/Picture_icon_BLACK.svg 
-[23/06/2025 - 23:20:43] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:43] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:43] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:43] FAIL https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg 404, message='Not Found', url='https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg'
-[23/06/2025 - 23:20:43] SUCCESS https://jsonplaceholder.typicode.com/todos/2 
-[23/06/2025 - 23:20:43] SUCCESS https://jsonplaceholder.typicode.com/posts/1 
-[23/06/2025 - 23:20:43] SUCCESS https://www.gstatic.com/webp/gallery/4.sm.webp 
-[23/06/2025 - 23:20:44] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4'
-[23/06/2025 - 23:20:44] SUCCESS http://www.google.com 
-[23/06/2025 - 23:20:44] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:44] SUCCESS https://www.orimi.com/pdf-test.pdf 
-[23/06/2025 - 23:20:44] SUCCESS https://jsonplaceholder.typicode.com/posts/2 
-[23/06/2025 - 23:20:44] SUCCESS https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png 
-[23/06/2025 - 23:20:44] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf'
-[23/06/2025 - 23:20:44] SUCCESS http://www.google.com/robots.txt 
-[23/06/2025 - 23:20:44] FAIL https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg 403, message='Forbidden', url='https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg'
-[23/06/2025 - 23:20:45] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc'
-[23/06/2025 - 23:20:45] SUCCESS https://www.w3schools.com/html/mov_bbb.webm 
-[23/06/2025 - 23:20:45] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:20:45] SUCCESS https://www.orimi.com/pdf-test.pdf 
-[23/06/2025 - 23:20:45] SUCCESS https://upload.wikimedia.org/wikipedia/commons/6/6b/Picture_icon_BLACK.svg 
-[23/06/2025 - 23:20:45] SUCCESS https://www.gstatic.com/webp/gallery/1.sm.webp 
-[23/06/2025 - 23:20:45] SUCCESS https://www.w3schools.com/html/mov_bbb.mp4 
-[23/06/2025 - 23:20:45] SUCCESS https://download.samplelib.com/mp3/sample-3s.mp3 
-[23/06/2025 - 23:20:46] SUCCESS http://www.google.com 
-[23/06/2025 - 23:20:46] SUCCESS https://jsonplaceholder.typicode.com/todos/1 
-[23/06/2025 - 23:20:46] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:46] SUCCESS https://jsonplaceholder.typicode.com/todos/2 
-[23/06/2025 - 23:20:46] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4'
-[23/06/2025 - 23:20:46] FAIL https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg 404, message='Not Found', url='https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg'
-[23/06/2025 - 23:20:46] SUCCESS http://www.google.com/robots.txt 
-[23/06/2025 - 23:20:46] SUCCESS https://jsonplaceholder.typicode.com/posts/1 
-[23/06/2025 - 23:20:46] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls'
-[23/06/2025 - 23:20:46] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:20:47] SUCCESS https://download.samplelib.com/mp3/sample-6s.mp3 
-[23/06/2025 - 23:20:47] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:20:47] SUCCESS https://jsonplaceholder.typicode.com/posts/2 
-[23/06/2025 - 23:20:47] SUCCESS https://www.w3schools.com/html/mov_bbb.webm 
-[23/06/2025 - 23:20:47] SUCCESS https://download.samplelib.com/mp3/sample-9s.mp3 
-[23/06/2025 - 23:20:47] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:47] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt'
-[23/06/2025 - 23:20:48] SUCCESS http://www.google.com 
-[23/06/2025 - 23:20:48] SUCCESS https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png 
-[23/06/2025 - 23:20:48] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3'
-[23/06/2025 - 23:20:48] SUCCESS https://upload.wikimedia.org/wikipedia/commons/6/6b/Picture_icon_BLACK.svg 
-[23/06/2025 - 23:20:48] SUCCESS https://jsonplaceholder.typicode.com/todos/1 
-[23/06/2025 - 23:20:48] FAIL https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg 404, message='Not Found', url='https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg'
-[23/06/2025 - 23:20:48] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4'
-[23/06/2025 - 23:20:48] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3'
-[23/06/2025 - 23:20:48] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'
-[23/06/2025 - 23:20:49] FAIL https://sample-videos.com/video123/mp4/480/asdasdas.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/480/asdasdas.mp4'
-[23/06/2025 - 23:20:50] SUCCESS https://jsonplaceholder.typicode.com/todos/2 
-[23/06/2025 - 23:20:50] SUCCESS https://www.w3schools.com/html/mov_bbb.mp4 
-[23/06/2025 - 23:20:50] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:20:50] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:20:50] SUCCESS https://www.gstatic.com/webp/gallery/2.sm.webp 
-[23/06/2025 - 23:20:50] SUCCESS https://jsonplaceholder.typicode.com/posts/1 
-[23/06/2025 - 23:20:51] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:20:51] SUCCESS https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png 
-[23/06/2025 - 23:20:52] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:20:52] SUCCESS https://sample-videos.com/img/Sample-jpg-image-500kb.jpg 
-[23/06/2025 - 23:20:52] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav'
-[23/06/2025 - 23:20:53] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:21:00] SUCCESS https://download.samplelib.com/mp4/sample-5s.mp4 
-[23/06/2025 - 23:21:00] SUCCESS https://jsonplaceholder.typicode.com/posts/2 
-[23/06/2025 - 23:21:01] FAIL https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg 403, message='Forbidden', url='https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg'
-[23/06/2025 - 23:21:01] SUCCESS https://upload.wikimedia.org/wikipedia/commons/6/6b/Picture_icon_BLACK.svg 
-[23/06/2025 - 23:21:01] FAIL https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg 404, message='Not Found', url='https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg'
-[23/06/2025 - 23:21:01] SUCCESS https://www.w3schools.com/html/mov_bbb.webm 
-[23/06/2025 - 23:21:01] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4'
-[23/06/2025 - 23:21:02] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav'
-[23/06/2025 - 23:21:02] SUCCESS https://www.w3schools.com/html/mov_bbb.mp4 
-[23/06/2025 - 23:21:02] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:21:02] SUCCESS https://jsonplaceholder.typicode.com/todos/1 
-[23/06/2025 - 23:21:02] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3'
-[23/06/2025 - 23:21:02] SUCCESS https://download.samplelib.com/mp3/sample-3s.mp3 
-[23/06/2025 - 23:21:02] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4'
-[23/06/2025 - 23:21:03] SUCCESS https://download.samplelib.com/mp3/sample-6s.mp3 
-[23/06/2025 - 23:21:03] SUCCESS https://www.w3schools.com/html/mov_bbb.webm 
-[23/06/2025 - 23:21:03] SUCCESS https://www.gstatic.com/webp/gallery/3.sm.webp 
-[23/06/2025 - 23:21:03] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov'
-[23/06/2025 - 23:21:03] SUCCESS https://download.samplelib.com/mp4/sample-10s.mp4 
-[23/06/2025 - 23:21:03] SUCCESS https://jsonplaceholder.typicode.com/todos/2 
-[23/06/2025 - 23:21:04] SUCCESS https://download.samplelib.com/mp3/sample-9s.mp3 
-[23/06/2025 - 23:21:04] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4'
-[23/06/2025 - 23:21:06] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:21:06] SUCCESS https://www.gstatic.com/webp/gallery/4.sm.webp 
-[23/06/2025 - 23:21:06] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
-[23/06/2025 - 23:21:06] SUCCESS https://httpbin.org/image/png 
-[23/06/2025 - 23:21:06] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg'
-[23/06/2025 - 23:21:06] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm'
-[23/06/2025 - 23:21:06] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:21:06] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4'
-[23/06/2025 - 23:21:06] FAIL https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4'
-[23/06/2025 - 23:21:07] SUCCESS https://httpbin.org/bytes/1024 
-[23/06/2025 - 23:21:07] SUCCESS https://download.samplelib.com/mp4/sample-5s.mp4 
-[23/06/2025 - 23:21:07] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:21:07] FAIL https://httpbin.org/status/404 404, message='NOT FOUND', url='https://httpbin.org/status/404'
-[23/06/2025 - 23:21:10] SUCCESS https://httpbin.org/redirect/1 
-[23/06/2025 - 23:21:11] SUCCESS https://httpbin.org/redirect/2 
-[23/06/2025 - 23:21:11] SUCCESS https://download.samplelib.com/mp4/sample-10s.mp4 
-[23/06/2025 - 23:21:12] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:21:12] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip'
-[23/06/2025 - 23:21:12] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip'
-[23/06/2025 - 23:21:12] FAIL https://httpbin.org/status/500 500, message='INTERNAL SERVER ERROR', url='https://httpbin.org/status/500'
-[23/06/2025 - 23:21:12] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:21:12] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:21:13] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4'
-[23/06/2025 - 23:21:14] FAIL https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg 403, message='Forbidden', url='https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg'
-[23/06/2025 - 23:21:15] SUCCESS https://httpbin.org/image/png 
-[23/06/2025 - 23:21:15] FAIL https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar'
-[23/06/2025 - 23:21:16] SUCCESS https://httpbin.org/image/jpeg 
-[23/06/2025 - 23:21:16] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:21:16] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'
-[23/06/2025 - 23:21:16] FAIL https://sample-videos.com/video123/mp4/480/asdasdas.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/480/asdasdas.mp4'
-[23/06/2025 - 23:21:16] FAIL https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz'
-[23/06/2025 - 23:21:16] FAIL https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar'
-[23/06/2025 - 23:21:16] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
-[23/06/2025 - 23:21:16] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
-[23/06/2025 - 23:21:16] SUCCESS https://download.samplelib.com/mp3/sample-3s.mp3 
-[23/06/2025 - 23:21:17] FAIL https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z'
-[23/06/2025 - 23:21:17] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip'
-[23/06/2025 - 23:21:17] SUCCESS https://download.samplelib.com/mp3/sample-6s.mp3 
-[23/06/2025 - 23:21:18] SUCCESS https://download.samplelib.com/mp3/sample-9s.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/status/404 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/redirect/2 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-20s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-15s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/bytes/1024 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-15s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-5s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/image/png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/status/500 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/redirect/2 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/480/asdasdas.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-20s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/img/Sample-jpg-image-500kb.jpg 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-15s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/image/png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-10s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp3/sample-9s.mp3 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp3/sample-6s.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp3/sample-3s.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-15s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/bytes/1024 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-5s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/image/png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/status/500 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/redirect/2 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/480/asdasdas.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/img/Sample-jpg-image-500kb.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-15s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-20s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/image/jpeg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/redirect/1 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-20s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-10s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/status/500 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/image/jpeg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/redirect/1 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-20s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/redirect/1 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/bytes/1024 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/bytes/1024 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/status/404 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 
-[23/06/2025 - 23:21:21] FAIL https://download.samplelib.com/mp4/sample-10s.mp4 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/image/jpeg 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 
-[23/06/2025 - 23:21:21] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf 
-[23/06/2025 - 23:21:21] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 
-[23/06/2025 - 23:21:21] FAIL https://httpbin.org/status/404 
+[25/06/2025 - 06:08:09] FAIL https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg 404, message='Not Found', url='https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_Sweden.svg'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_OGG_1MG.ogg'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_5MB.zip'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_PPTX_1.pptx'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/PNG_150kB.png'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_2MG.mp3'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file-example_PPT_1MB.ppt'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_WEBM_480_1_5MG.webm'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/gz_2MB.gz'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file-example_XLS_10.xls'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.pdf'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_EPS_1MB.eps'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_ZIP_10MB.zip'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2020/05/sample-mp4-file.mp4'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2018/04/file_example_SVG_1MB.svg'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_MP4_480_1_5MG.mp4'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_10MB.zip'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_5MB.zip'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_DOCX_1.docx'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.pdf'
+[25/06/2025 - 06:08:09] SUCCESS https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png 
+[25/06/2025 - 06:08:09] SUCCESS https://jsonplaceholder.typicode.com/posts/1 
+[25/06/2025 - 06:08:09] SUCCESS https://jsonplaceholder.typicode.com/posts/2 
+[25/06/2025 - 06:08:09] SUCCESS https://jsonplaceholder.typicode.com/todos/1 
+[25/06/2025 - 06:08:09] SUCCESS https://jsonplaceholder.typicode.com/todos/2 
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_PDF_1MB.pdf'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/rar_2MB.rar'
+[25/06/2025 - 06:08:09] SUCCESS https://www.w3schools.com/html/mov_bbb.mp4 
+[25/06/2025 - 06:08:09] SUCCESS https://api.github.com/zen 
+[25/06/2025 - 06:08:09] SUCCESS https://www.gstatic.com/webp/gallery/1.sm.webp 
+[25/06/2025 - 06:08:09] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
+[25/06/2025 - 06:08:09] SUCCESS http://www.google.com/robots.txt 
+[25/06/2025 - 06:08:09] SUCCESS https://www.gstatic.com/webp/gallery/3.sm.webp 
+[25/06/2025 - 06:08:09] SUCCESS https://www.w3schools.com/html/mov_bbb.webm 
+[25/06/2025 - 06:08:09] SUCCESS https://download.samplelib.com/mp3/sample-3s.mp3 
+[25/06/2025 - 06:08:09] SUCCESS https://download.samplelib.com/mp3/sample-6s.mp3 
+[25/06/2025 - 06:08:09] SUCCESS https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif 
+[25/06/2025 - 06:08:09] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'
+[25/06/2025 - 06:08:09] FAIL https://sample-videos.com/video123/mp4/480/asdasdas.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/480/asdasdas.mp4'
+[25/06/2025 - 06:08:09] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_10mb.mp4'
+[25/06/2025 - 06:08:09] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4'
+[25/06/2025 - 06:08:09] SUCCESS https://download.samplelib.com/mp3/sample-9s.mp3 
+[25/06/2025 - 06:08:09] SUCCESS https://upload.wikimedia.org/wikipedia/commons/6/6b/Picture_icon_BLACK.svg 
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_150kB.pdf'
+[25/06/2025 - 06:08:09] FAIL https://api.ipify.org/?format=json [Errno 22] Invalid argument: 'downloads\\?format=json'
+[25/06/2025 - 06:08:09] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file_example_JSON_1kb.json'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2020/04/sample-text-file.txt'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/tar_2MB.tar'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_PDF_1MB.pdf'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file-example_DOC_1MB.doc'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_1MB.jpg'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_1MG.mp3'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/7z_2MB.7z'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/zip_2MB.zip'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_PNG_1MB.png'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2018/04/file_example_MOV_480_700kB.mov'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file_example_CSV_5000.csv'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3'
+[25/06/2025 - 06:08:09] SUCCESS http://example.com 
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_OGG_1MG.ogg'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_TAR_5MB.tar'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_2MG.wav'
+[25/06/2025 - 06:08:09] SUCCESS https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.pdf'
+[25/06/2025 - 06:08:09] SUCCESS https://www.wikipedia.org/robots.txt 
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/10/file_example_TIFF_1MB.tiff'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/02/JPG_150kB.jpg'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/04/file_example_XLSX_1.xlsx'
+[25/06/2025 - 06:08:09] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4'
+[25/06/2025 - 06:08:09] FAIL https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4 404, message='Not Found', url='https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4'
+[25/06/2025 - 06:08:09] FAIL https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav 403, message='Forbidden', url='https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav'
+[25/06/2025 - 06:08:09] SUCCESS https://www.gstatic.com/webp/gallery/2.sm.webp 
+[25/06/2025 - 06:08:09] SUCCESS https://www.gstatic.com/webp/gallery/4.sm.webp 
+[25/06/2025 - 06:08:09] SUCCESS http://github.com 
+[25/06/2025 - 06:08:09] FAIL https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg 403, message='Forbidden', url='https://download.samplelib.com/jpeg/sample-jpg-image-1mb.jpeg'
+[25/06/2025 - 06:08:09] FAIL https://www.w3.org/TR/PNG/iso_8859-1.txt 404, message='Not Found', url='https://www.w3.org/TR/png/iso_8859-1.txt'
+[25/06/2025 - 06:08:10] SUCCESS https://download.samplelib.com/mp4/sample-5s.mp4 
+[25/06/2025 - 06:08:10] SUCCESS http://www.google.com 
+[25/06/2025 - 06:08:10] SUCCESS https://www.orimi.com/pdf-test.pdf 
+[25/06/2025 - 06:08:10] SUCCESS https://httpbin.org/image/png 
+[25/06/2025 - 06:08:10] SUCCESS https://httpbin.org/bytes/1024 
+[25/06/2025 - 06:08:10] FAIL https://httpbin.org/status/404 404, message='NOT FOUND', url='https://httpbin.org/status/404'
+[25/06/2025 - 06:08:10] SUCCESS https://httpbin.org/redirect/1 
+[25/06/2025 - 06:08:10] FAIL https://httpbin.org/status/500 500, message='INTERNAL SERVER ERROR', url='https://httpbin.org/status/500'
+[25/06/2025 - 06:08:10] SUCCESS https://httpbin.org/image/jpeg 
+[25/06/2025 - 06:08:10] SUCCESS https://sample-videos.com/img/Sample-jpg-image-500kb.jpg 
+[25/06/2025 - 06:08:11] SUCCESS https://download.samplelib.com/mp4/sample-10s.mp4 
+[25/06/2025 - 06:08:11] SUCCESS https://httpbin.org/redirect/2 
+[25/06/2025 - 06:08:12] SUCCESS https://download.samplelib.com/mp4/sample-15s.mp4 
+[25/06/2025 - 06:08:13] SUCCESS https://download.samplelib.com/mp4/sample-20s.mp4 
+[25/06/2025 - 06:08:30] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
+[25/06/2025 - 06:08:30] FAIL https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav Cannot connect to host www2.cs.uic.edu:443 ssl:default [The semaphore timeout period has expired]
