@@ -12,3 +12,4 @@ venv/
 # Output / logs / temporary files
 *.log
 downloads/
+logs/
