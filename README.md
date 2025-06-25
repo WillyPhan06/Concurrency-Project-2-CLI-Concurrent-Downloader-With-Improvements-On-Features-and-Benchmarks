@@ -23,4 +23,10 @@ In this downloader I coded all threading, asyncio, multiprocessing, and mix mode
 
 Btw there are logs for threading and asyncio downloads, but unfortunately there is no log for multiprocessing approach because its not process safe.
 
-For more visualization you can check the high level diagram down here. Also check my benchmark results and my analysis! 😁
+You can refer to my old version of CLI concurrent downloader here:
+
+https://github.com/WillyPhan06/Concurrency-Project-CLI-Concurrent-Downloader
+
+Here is link to my Software Architect and DevSecOps Engineer road map:
+
+https://github.com/WillyPhan06/Software-Architect-and-DevSecOps-Engineer-Road-Map
