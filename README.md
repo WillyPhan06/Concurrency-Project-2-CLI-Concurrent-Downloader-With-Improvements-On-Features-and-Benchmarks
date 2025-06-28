@@ -1,5 +1,5 @@
 # Concurrency-Project-2-CLI-Concurrent-Downloader-With-Improvements-On-Features-and-Benchmarks
-This is the 2nd project in final projects of concurrency, for project 1 I already made a CLI (Command-Line Interface) concurrent downloader to download multiple websites concurrently using command lines in the terminal. Check benchmark_documents for more info.
+This is the 2nd project in final projects of concurrency, for project 1 I already made a CLI (Command-Line Interface) concurrent downloader to download multiple websites concurrently using command lines in the terminal. Check benchmark_documents for more info of my benchmark and analysis. Scroll to near the bottom to see how to use this.
 
 In this 2nd project, i reconstructed the project 1 all from scratch all from my understanding and memory, no help from AI code or other source code, just full understanding and memory from project 1 and in this 2nd project I also fix edge cases, potential bugs, and improvements such as:
 
@@ -30,6 +30,10 @@ https://github.com/WillyPhan06/Concurrency-Project-CLI-Concurrent-Downloader
 Here is link to my Software Architect and DevSecOps Engineer road map:
 
 https://github.com/WillyPhan06/Software-Architect-and-DevSecOps-Engineer-Road-Map
+
+Here is high-level architecture diagram for both of my Project 1 and Project 2 of CLI Concurrent Downloader:
+
+![High Level Design of CLI Concurrent Downloader](high_level_CLI_concurrent_downloader_diagram.png)
 
 **📘 HOW TO USE - Concurrent Downloader CLI Tool**
 This project allows you to download multiple files concurrently using threading, asyncio, or multiprocessing in Python.
